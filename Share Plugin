@@ -1,0 +1,9 @@
+Add the following code in your site, inside the head tag:
+<script>
+    function SocialShare(url) {
+        window.open('https://zigi.be/share?url=' + url, '', 'height=600,width=800');
+    }
+</script>
+Then place the share button after changing the URL you want to share to your page HTML:
+<button onclick="SocialShare('http://yoursite.com/')">Click me</button>
+Example:
